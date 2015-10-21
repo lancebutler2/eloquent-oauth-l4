@@ -13,7 +13,8 @@ use AdamWathan\EloquentOAuth\OAuthIdentity;
 use AdamWathan\EloquentOAuth\OAuthManager;
 use AdamWathan\EloquentOAuth\UserStore;
 
-class EloquentOAuthServiceProvider extends ServiceProvider {
+class EloquentOAuthServiceProvider {
+// class EloquentOAuthServiceProvider extends ServiceProvider {
 
     protected $providerLookup = [
         'facebook' => 'SocialNorm\Facebook\FacebookProvider',
