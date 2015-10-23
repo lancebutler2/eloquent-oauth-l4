@@ -1,5 +1,7 @@
 # Eloquent OAuth L4
 
+## Note
+
 > Note: Use the [Laravel 5 package](https://github.com/adamwathan/eloquent-oauth-l5) if you are using Laravel 5.
 
 Eloquent OAuth is a package for Laravel 4 designed to make authentication against various OAuth providers *ridiculously* brain-dead simple. Specify your app keys/secrets in a config file, run a migration and from then on it's just two method calls and you have OAuth integration.
